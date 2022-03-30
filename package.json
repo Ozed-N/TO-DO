@@ -1,0 +1,26 @@
+{
+    "name": "to-do",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "build": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "to-do",
+        "delete",
+        "update"
+    ],
+    "author": "Ozioma Ndibe",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mongoose": "^6.2.9"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
