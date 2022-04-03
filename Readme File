@@ -1,1 +1,9 @@
-I started this with npm init ie for the dependencies.
+I started this with npm init ie to initialize the npm packages.
+Secondly I indtalled express, dotenv, mongoose and colors.
+I also installed nodemon with npm -D nodemon.
+I changed the test script in package.json to"build": "node app.js",
+        "dev": "nodemon app.js"
+I initialized and committed the work so far on git.
+Setting up the server or starter app on app.js
+Tried it out on Postman to see if it had connected and the status is 200 ok.
+i created a routes folder and also created a todoRoutes.js file. In this file I created the CRUD operation routes and I ran it on Postman to confim that they were connected.
